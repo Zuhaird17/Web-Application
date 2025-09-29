@@ -9,7 +9,7 @@ function App() {
     const timeout = setTimeout(() => {
       setFadeOut(true); // Start fade-out
       setTimeout(() => setIsLoading(false), 20000); // Wait for fade animation
-    }, 2000); // Simulate loading time
+    }, 20000); // Simulate loading time
 
     return () => clearTimeout(timeout);
   }, []);
