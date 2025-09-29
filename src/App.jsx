@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setFadeOut(true); // Start fade-out
-      setTimeout(() => setIsLoading(false), 700); // Wait for fade animation
+      setTimeout(() => setIsLoading(false), 2000); // Wait for fade animation
     }, 2000); // Simulate loading time
 
     return () => clearTimeout(timeout);
