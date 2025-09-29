@@ -11,7 +11,7 @@ function App() {
     const timeout = setTimeout(() => {
       setFadeOut(true);
       setTimeout(() => setIsLoading(false), 700);
-    }, 2000); // Your loading duration logic
+    }, 20000); // Your loading duration logic
 
     return () => clearTimeout(timeout);
   }, []);
@@ -25,7 +25,7 @@ function App() {
           }`}
         >
           <div className="w-16 h-16 border-8 border-t-blue-500 border-gray-300 rounded-full animate-spin mb-6" />
-          <h1 className="text-xl font-semibold text-gray-700 typewriter">Please wait for a while...</h1>
+          <h1 className="text-xl font-semibold text-gray-700 typewriter">Please wait for 40 seconds more or less for the interface to appear...</h1>
         </div>
       ) : (
         <Suspense
