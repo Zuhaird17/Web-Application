@@ -11,7 +11,7 @@ function App() {
     const timeout = setTimeout(() => {
       setFadeOut(true);
       setTimeout(() => setIsLoading(false), 700);
-    }, 20000); // Your loading duration logic
+    }, 2000); // Your loading duration logic
 
     return () => clearTimeout(timeout);
   }, []);
