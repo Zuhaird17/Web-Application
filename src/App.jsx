@@ -9,7 +9,7 @@ function App() {
   const timeout = setTimeout(() => {
     setFadeOut(true); // Start fade-out
     setTimeout(() => setIsLoading(false), 700); // Wait for fade animation duration before removing
-  }, 1000);
+  }, 20000);
 
   return () => clearTimeout(timeout);
 }, []);
