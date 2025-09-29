@@ -1,0 +1,85 @@
+# -----------------------------
+# Node Modules & Dependency Caches
+# -----------------------------
+node_modules/
+.pnp/
+.pnp.js
+
+# -----------------------------
+# Build Output
+# -----------------------------
+dist/
+dist-ssr/
+build/
+
+# -----------------------------
+# Vite Cache
+# -----------------------------
+.vite/
+.cache/             # Also used by tools like Parcel
+
+# -----------------------------
+# Logs
+# -----------------------------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# -----------------------------
+# Editor Directories & IDE Files
+# -----------------------------
+.vscode/*
+!.vscode/extensions.json  # Keep extensions.json (recommended)
+.idea/                    # JetBrains IDEs
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# -----------------------------
+# Environment / Secrets
+# -----------------------------
+.env
+.env.local
+.env.*.local
+
+# -----------------------------
+# OS-Specific System Files
+# -----------------------------
+.DS_Store
+*/.DS_Store
+**/.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------------------
+# Backup / Temporary Files
+# -----------------------------
+*.bak
+*.swp
+*.swo
+
+# -----------------------------
+# Testing
+# -----------------------------
+coverage/          # Jest, Mocha, etc.
+*.test.js
+*.spec.js
+
+# -----------------------------
+# Config Files You Want to Keep
+# -----------------------------
+!tailwind.config.js
+!postcss.config.js
+!index.html
+
+# -----------------------------
+# TypeScript Build Info
+# -----------------------------
+tsconfig.tsbuildinfo
+
