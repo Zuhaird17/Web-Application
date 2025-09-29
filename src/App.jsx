@@ -1,5 +1,5 @@
 import React, { Suspense, lazy, useState, useEffect } from 'react';
-import Interface from './components/Interface';
+
 
 const LazyInterface = lazy(() => import('./components/Interface'));
 
@@ -11,7 +11,7 @@ function App() {
     const timeout = setTimeout(() => {
       setFadeOut(true);
       setTimeout(() => setIsLoading(false), 700);
-    }, 8000); // Your loading duration logic
+    }, 20000); // Your loading duration logic
 
     return () => clearTimeout(timeout);
   }, []);
