@@ -31,7 +31,7 @@ function App() {
         <Suspense
           fallback={
             <div className="text-center">
-              <div className="animate-pulse text-[100px]">Loading...</div>
+              <div className="animate-pulse text-[60px]">Loading...</div>
             </div>
           }
         >
