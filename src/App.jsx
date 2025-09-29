@@ -6,13 +6,13 @@ function App() {
   const [fadeOut, setFadeOut] = useState(false);
 
   useEffect(() => {
-    const timeout = setTimeout(() => {
-      setFadeOut(true); // Start fade-out
-      setTimeout(() => setIsLoading(false), 20000); // Wait for fade animation
-    }, 20000); // Simulate loading time
+  const timeout = setTimeout(() => {
+    setFadeOut(true); // Start fade-out
+    setTimeout(() => setIsLoading(false), 700); // Wait for fade animation duration before removing
+  }, 1000);
 
-    return () => clearTimeout(timeout);
-  }, []);
+  return () => clearTimeout(timeout);
+}, []);
 
   return (
     <>
