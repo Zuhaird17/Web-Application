@@ -5,7 +5,6 @@ const Interface = () => {
     src="/Shopping App.svg"
     alt="Interface"
     className="w-full h-auto max-w-[2560px]"
-    loading="lazy"
   />
 </div>
 
